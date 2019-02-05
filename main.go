@@ -7,7 +7,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/Luzifer/rconfig"
+	rconfig "github.com/Luzifer/rconfig/v2"
 )
 
 type deleteRequest struct{ Repo, Digest string }
